@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalTranslate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌍 LocalTranslate</h1>
+        <p>English → Ugandan Languages</p>
+    </header>
+
+    <main class="container">
+
+        <label>English</label>
+
+        <textarea
+            id="englishText"
+            placeholder="Type English here..."
+        ></textarea>
+
+        <label>Translate to</label>
+
+        <select id="language">
+            <option value="Luganda">Luganda</option>
+            <option value="Runyankole">Runyankole</option>
+            <option value="Acholi">Acholi</option>
+            <option value="Lusoga">Lusoga</option>
+            <option value="Ateso">Ateso</option>
+            <option value="Runyoro">Runyoro</option>
+            <option value="Rutooro">Rutooro</option>
+        </select>
+
+        <button id="translateBtn">
+            Translate
+        </button>
+
+        <section class="result">
+            <h3>Translation</h3>
+
+            <p id="resultText">
+                Your translation will appear here.
+            </p>
+
+            <div class="buttons">
+                <button id="copyBtn">📋 Copy</button>
+                <button id="speakBtn">🔊 Listen</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
